@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0%;
+}
+.absolute {
+    width: 100%;
+
+}
+.firstling {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+.BG {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-bottom: 1.6rem;
+}
+.H3 {
+    background-color: rgba(255, 248, 248, 0.5);
+}
+.p-1 {
+    border: none;
+    resize: none;
+    outline: none;
+}
+.H1 {
+    color: rgb(247, 247, 4);
+    text-align: center;
+}
+@media only screen and (max-width:768px) {
+    .first {
+        text-align: center;
+    }
+    .H3 {
+        margin-left: 50%;
+    }
+    .Hit {
+        color: rgb(247, 247, 4);
+        font-size: 3rem;
+        margin-left: 0;
+    }
+    .H1 {
+        margin-left: 0;
+    }
+    .not {
+        display: none;
+    }
+    .form {
+        width: 100%;
+    }
+    .ml-8 {
+        margin-left: 0;
+    }
+    .ml-40 {
+        width: 40rem;
+        margin-left: 4rem;
+    }
+    .H5 {
+        color: rgb(247, 247, 4);
+        font-size: 1.5rem;
+    }
+    .H {
+        width: 80%;
+    }
+    .btm {
+        margin-left: 0%;
+    }
+}
+@media only screen and (max-width:425px) {
+    .H3 {
+        margin-left: 50%;
+    }
+    .Hit {
+        color: rgb(247, 247, 4);
+        font-size: 2rem;
+    }
+    .not {
+        display: none;
+    }
+    .form {
+        width: 100%;
+    }
+    .ml-8 {
+        margin-left: 0;
+    }
+    .H5 {
+        color: rgb(247, 247, 4);
+        font-size: 1rem;
+    }
+    .btm {
+        margin-left: 0%;
+    }
+    .btm {
+        width: 80%;
+        margin-left: 10%;
+    }
+}
