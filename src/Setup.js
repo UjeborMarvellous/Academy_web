@@ -1,8 +1,8 @@
 import React from "react";
 import './Setup.css'
 
-const Setup = () => {
-    return ( 
+const SetupTest = () => { 
+    return(
         <div className="">
             <nav>
                 <div className="flex">
@@ -22,8 +22,8 @@ const Setup = () => {
                     </div>
                 </div>
             </nav>
-        </div>
-     );
-}
+         </div>
+    );
+    }
  
-export default Setup;
+export default SetupTest;

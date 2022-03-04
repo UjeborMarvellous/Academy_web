@@ -2,13 +2,9 @@ import React from 'react';
 import './Break.css';
 import  ReactPlayer from 'react-player';
 import Img2 from './Images/2.jpg';
-import { useNavigate } from 'react-router';
 
 const Stag = () => {
-    let navigate = useNavigate();
-    const handleClick = () => {
-        navigate('/')
-      }
+    
     return ( 
         <>
             <div className="stage2 p-4">
@@ -37,7 +33,7 @@ const Stag = () => {
                 <div className=" py-8">
                     <h3 className='text-2xl KBs'>Schedule a call with our coach adviser</h3>
                     <img src={Img2} alt="loading" className='LG mx-auto'/>
-                    <button onClick={handleClick} type='submit' className='LGs KB bg-green-600 p-4 text-white w-1/4 rounded-3xl font-bold text-lg mt-4'>Schedule a call</button>
+                    <button className='LGs KB bg-green-600 p-4 text-white w-1/4 rounded-3xl font-bold text-lg mt-4'>Schedule a call</button>
 
                 </div>
             </div>
