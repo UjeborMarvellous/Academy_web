@@ -9,7 +9,7 @@ const Stag = () => {
         <>
             <div className="stage2 p-4">
                 <div className="Img2 ">
-                    <ReactPlayer width="600px" height="350px" controls url="https://www.youtube.com/watch?v=cLV3hedhz7s"/>
+                    <ReactPlayer className="wth" width="100%" height="300px" controls url="https://www.youtube.com/watch?v=cLV3hedhz7s"/>
                 </div>
             </div>
             <div className="stage3 my-8">
@@ -21,10 +21,10 @@ const Stag = () => {
 
                 <div className="setup my-12">
                     <p className='font-bold text-5xl D'>PG Academy we are ready<br /> 
-                    <div className="flex mt-4 flexs">
-                        <div className="w-1/2 text-white p-1 bg-green-900"></div>
-                        <div className="w-1/2 text-white p-4 bg-green-400 mx-4"></div>
-                        <div className="w-1/2 text-white p-1 bg-green-900"></div>
+                    <div className="flex WT mt-4 flexs">
+                        <div className="W w-1/2 text-white p-1 bg-green-900"></div>
+                        <div className="W w-1/2 text-white p-4 bg-green-400 mx-4"></div>
+                        <div className="W w-1/2 text-white p-1 bg-green-900"></div>
                     </div>
                     <span className='font-normal ml-8 text-lg T'>to take our student to the next level of their own interest</span></p>
                 </div>

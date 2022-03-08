@@ -4,7 +4,7 @@ import './Setup.css'
 const SetupTest = () => { 
     return(
         <div className="">
-            <nav>
+            {/* <nav>
                 <div className="flex">
                         <p className="bg-blue-400 text-white text-1xl font-bold p-4 PG">𝓹𝓰</p>
                     <div className="sec1">
@@ -21,7 +21,7 @@ const SetupTest = () => {
                         </ul>
                     </div>
                 </div>
-            </nav>
+            </nav> */}
          </div>
     );
     }

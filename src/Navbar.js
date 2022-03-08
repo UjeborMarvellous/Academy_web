@@ -32,7 +32,7 @@ const Nav = () => {
                                     <option>In 3 Months</option>
                                     <option>In 6 Months or More</option>
                                 </select>
-                                <button type="submit" className="btm rounded-2xl w-3/5 bg-green-600 p-4 ml-16 text-white">Request Form</button>
+                                <button type="submit" className="whitespace-nowrap rounded-2xl w-3/5 bg-green-600 p-4 text-white block mx-auto">Request Form</button>
                             </form>
                         </div>
                     </div>
