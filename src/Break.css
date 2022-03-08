@@ -85,23 +85,21 @@
         text-align: center;
     }
     .stage3 {
-        margin-left: 20%;
+        margin: 2% 0%;
         display: grid;
         grid-template-columns: 1fr;
         text-align: center;
     }
     .T {
         font-size: 1.2rem;
-        margin:0 2%;
         font-weight: 500;
     }
     .D {
         font-size: 2rem;
-        margin: 0 2%;
         font-weight: 700;
     }
     .mx-16 {
-        margin: 0 5px;
+        margin: 0 1%;
     }
     #set {
         font-size: 2rem;
@@ -111,7 +109,7 @@
         width: 6rem;
     }
     .WT {
-        margin-left: 0;
+        margin-left: 2%;
     }
     #sets {
         font-size: 25px;
